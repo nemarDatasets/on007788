@@ -1,0 +1,7 @@
+{
+  "reference_frame": {
+    "RotationRule": "right-hand",
+    "RotationOrder": "ZXY",
+    "Description": "The IMU uses a right-handed coordinate system with orthogonal X, Y, and Z axes. The X and Y axes lie in the plane of the sensor surface, and the Z-axis is perpendicular to the surface. For this recording, the Y-axis is approximately aligned with the direction of gravity."
+  }
+}

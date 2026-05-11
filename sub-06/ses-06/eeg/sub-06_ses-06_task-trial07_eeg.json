@@ -1,0 +1,16 @@
+{
+  "TaskName": "ses-06-task-trial07",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Ref",
+  "EEGGround": "Gnd",
+  "EEGPlacementScheme": "10-20",
+  "EEGChannelCount": 60,
+  "EOGChannelCount": 4,
+  "Manufacturer": "MOVE System",
+  "CapManufacturer": "actiCAP",
+  "SoftwareFilters": "n/a",
+  "RecordingType": "continuous",
+  "RecordingDuration": 117.18,
+  "TaskDescription": "Recorded on: 2018-08-09 during \"ses-06-task-trial07\""
+}
