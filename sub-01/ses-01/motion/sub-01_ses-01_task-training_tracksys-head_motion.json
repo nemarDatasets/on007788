@@ -1,0 +1,14 @@
+{
+  "TaskName": "ses-01-task-training",
+  "TaskDescription": "IMU (mounted on forehead) readings recorded during motor imagery task - At rest or walking with exoskeleton during ses-01-task-training. dated 2015-04-27",
+  "Manufacturer": "Clario (APDM)",
+  "ManufacturersModelName": "Opal",
+  "TrackingSystemName": "HeadIMU",
+  "SamplingFrequency": 100,
+  "ACCELChannelCount": 3,
+  "GYROChannelCount": 3,
+  "MAGNChannelCount": 3,
+  "MISCChannelCount": 4,
+  "RecordingType": "continuous",
+  "RecordingDuration": 247.98
+}
