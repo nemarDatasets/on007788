@@ -1,0 +1,16 @@
+{
+  "TaskName": "ses-07-task-walk6min",
+  "SamplingFrequency": 100,
+  "PowerLineFrequency": 60,
+  "EEGReference": "Ref",
+  "EEGGround": "Gnd",
+  "EEGPlacementScheme": "10-20",
+  "EEGChannelCount": 60,
+  "EOGChannelCount": 4,
+  "Manufacturer": "MOVE System",
+  "CapManufacturer": "actiCAP",
+  "SoftwareFilters": "n/a",
+  "RecordingType": "continuous",
+  "RecordingDuration": 375.18,
+  "TaskDescription": "Recorded on: 2015-05-13 during \"ses-07-task-walk6min\""
+}
