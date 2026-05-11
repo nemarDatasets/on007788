@@ -1,0 +1,15 @@
+name	component	type	tracked_point	units
+acceleration_x	x	ACCEL	Exo	m/s^2
+acceleration_y	y	ACCEL	Exo	m/s^2
+acceleration_z	z	ACCEL	Exo	m/s^2
+gyroscope_x	x	GYRO	Exo	deg/s
+gyroscope_y	y	GYRO	Exo	deg/s
+gyroscope_z	z	GYRO	Exo	deg/s
+magnetometer_x	x	MAGN	Exo	µT
+magnetometer_y	y	MAGN	Exo	µT
+magnetometer_z	z	MAGN	Exo	µT
+quaternion_w	quat_w	ORNT	Exo	n/a
+quaternion_x	quat_x	ORNT	Exo	n/a
+quaternion_y	quat_y	ORNT	Exo	n/a
+quaternion_z	quat_z	ORNT	Exo	n/a
+time	n/a	LATENCY	Exo	s
