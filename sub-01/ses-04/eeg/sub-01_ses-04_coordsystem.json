@@ -1,0 +1,6 @@
+{
+  "IntendedFor": "sub-01_ses-04_electrodes.tsv",
+  "EEGCoordinateUnits": "n/a",
+  "EEGCoordinateSystem": "EEGLAB",
+  "FiducialsDescription": "No fiducial landmark coordinates are provided. Electrode positions were derived from the default EEGLAB cap coordinate system."
+}
