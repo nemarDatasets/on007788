@@ -1,0 +1,14 @@
+{
+  "TaskName": "ses-01-task-trial10",
+  "TaskDescription": "IMU (mounted on Exoskeleton) readings recorded during motor imagery task - At rest or walking with exoskeleton during ses-01-task-trial10. dated 2017-05-10",
+  "Manufacturer": "Clario (APDM)",
+  "ManufacturersModelName": "Opal",
+  "TrackingSystemName": "ExoIMU",
+  "SamplingFrequency": 100,
+  "ACCELChannelCount": 3,
+  "GYROChannelCount": 3,
+  "MAGNChannelCount": 3,
+  "MISCChannelCount": 4,
+  "RecordingType": "continuous",
+  "RecordingDuration": 96.28
+}
