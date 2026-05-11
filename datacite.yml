@@ -1,0 +1,36 @@
+data:
+  attributes:
+    types:
+      resourceTypeGeneral: Dataset
+    contributors:
+      - name: Shantanu Sarkar
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 1
+      - name: Kevin Nathan
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 2
+      - name: Jose L. Contreras-Vidal
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: []
+        contributorType: Researcher
+        order: 3
+    creators:
+      - name: Shantanu Sarkar
+        nameType: Personal
+      - name: Kevin Nathan
+        nameType: Personal
+      - name: Jose L. Contreras-Vidal
+        nameType: Personal
+    descriptions:
+      - description: N/A
+        descriptionType: Abstract
