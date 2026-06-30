@@ -1,40 +1,88 @@
 {
   "version": "2.0",
-  "dataset_id": "on007788",
-  "source": "openneuro",
-  "source_id": "ds007788",
+  "pipeline_stage": "validated",
   "title": "Dataset: EEG-Controlled Exoskeleton for Walking and Standing - A Longitudinal Study of Healthy Individuals",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Shantanu Sarkar": {},
     "Kevin Nathan": {},
     "Jose L. Contreras-Vidal": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007788.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007788",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007788",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007788",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "eeg",
-    "motion"
-  ],
-  "datatypes": [
-    "eeg",
-    "motion"
   ],
   "funding_references": [
     {
       "funder_name": "UH–Methodist Graduate Fellowship for Translational Research"
     },
     {
-      "funder_name": "NSF IUCRC BRAIN Center Award #2137255"
+      "funder_name": "NSF",
+      "award_number": "2137255",
+      "award_title": "IUCRC BRAIN Center Award"
     }
   ],
-  "acknowledgements": "We acknowledge the invaluable collaboration and visionary support of the late Prof. Robert Grossman. This research would not have been possible without his contributions."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg",
+    "motion"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".gz",
+    ".json",
+    ".md",
+    ".pdf",
+    ".tsv",
+    ".xls",
+    ".yml"
+  ],
+  "description": "This longitudinal brain-machine interface dataset comprises multimodal recordings from seven healthy adults performing motor imagery tasks to control a lower-limb exoskeleton. The dataset includes 60-channel EEG, EOG, dual IMU sensors, and exoskeleton control signals across nine sessions per participant, combining open-loop calibration and closed-loop BMI control paradigms for walking and standing motor imagery.",
+  "methods_description": "Data collection involved seven healthy adult participants (ages 20–30 years) completing nine sessions each. Each session consisted of a motor imagery training phase for BMI decoder calibration, followed by twelve closed-loop trials organized into three blocks, and two extended motor imagery tasks (6-minute walk and stop imagery). Recordings included 60-channel scalp EEG with 4-channel EOG, 3-axis IMU data (accelerometer, gyroscope, magnetometer, quaternion) from forehead and exoskeleton-mounted sensors, and real-time BMI control and feedback signals.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "exoskeleton"
+    },
+    {
+      "term": "inertial measurement units"
+    },
+    {
+      "term": "longitudinal study"
+    }
+  ],
+  "source_hash": "7d3ee040882db6ada7f0f8da32574b9ba4f3bc1c5c8b8fbe03ae1f28153c1ed7"
 }
