@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007788",
+  "source": "openneuro",
+  "source_id": "ds007788",
+  "title": "Dataset: EEG-Controlled Exoskeleton for Walking and Standing - A Longitudinal Study of Healthy Individuals",
+  "authors": {
+    "Shantanu Sarkar": {},
+    "Kevin Nathan": {},
+    "Jose L. Contreras-Vidal": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007788.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg",
+    "motion"
+  ],
+  "datatypes": [
+    "eeg",
+    "motion"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "UH–Methodist Graduate Fellowship for Translational Research"
+    },
+    {
+      "funder_name": "NSF IUCRC BRAIN Center Award #2137255"
+    }
+  ],
+  "acknowledgements": "We acknowledge the invaluable collaboration and visionary support of the late Prof. Robert Grossman. This research would not have been possible without his contributions."
+}
