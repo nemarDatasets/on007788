@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dataset: EEG-Controlled Exoskeleton for Walking and Standing - A Longitudinal Study of Healthy Individuals",
-  "description": "This longitudinal brain-machine interface study presents multimodal neurophysiological and kinematic data from seven healthy adults performing motor imagery tasks to control a lower-limb exoskeleton. The dataset comprises 60-channel EEG with EOG, dual inertial measurement units, and exoskeleton control signals collected across nine sessions per participant. Data include both open-loop calibration phases and closed-loop BMI control trials, providing a comprehensive resource for investigating neural correlates of motor imagery and human-machine interaction in ambulatory tasks.",
-  "methods_description": "Seven healthy adults (ages 20–30 years) completed nine sessions of EEG-based brain-machine interface training and closed-loop exoskeleton control. Each session consisted of a motor imagery calibration phase followed by 12 closed-loop trials with walk/stop conditions. Extended motor imagery tasks (6-minute walk and stop imagery) were performed after trial blocks. Data acquisition included 60-channel scalp EEG with 4 EOG channels, 3-axis IMU sensors mounted on the forehead and exoskeleton, and continuous logging of decoder signals and BMI feedback.",
+  "description": "This dataset contains multimodal brain–machine interface (BMI) recordings from seven healthy adults who trained over nine longitudinal sessions to control a lower-limb exoskeleton via motor imagery. It includes 60-channel EEG, 4-channel EOG, dual IMU motion data, and exoskeleton control/feedback signals collected during open-loop calibration and closed-loop walk/stop trials. The dataset supports research on EEG-based decoding of motor imagery for neurorehabilitation and human-robot interaction applications.",
+  "methods_description": "Seven healthy adults (ages 20-30) completed nine sessions each, comprising a motor imagery calibration phase (training) without feedback and a closed-loop trial phase with 12 trials per session, followed by extended 6-minute walk and stop motor imagery tasks. Recordings included 60-channel scalp EEG plus 4 EOG channels, IMU sensors (accelerometer, gyroscope, magnetometer, quaternion) mounted on the forehead and exoskeleton back brace, and logged exoskeleton control/feedback signals. Data are provided raw, without filtering or artifact removal.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,22 +16,24 @@
       "term": "EEG"
     },
     {
-      "term": "motor imagery"
+      "term": "brain-computer interface"
     },
     {
-      "term": "brain-machine interface"
+      "term": "motor imagery"
     },
     {
       "term": "exoskeleton"
     },
     {
-      "term": "inertial measurement unit"
-    },
-    {
-      "term": "closed-loop control"
+      "term": "Electrooculography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
     },
     {
       "term": "longitudinal study"
+    },
+    {
+      "term": "gait"
     }
   ],
   "related_identifiers": [
@@ -63,7 +65,7 @@
     {
       "funder_name": "NSF",
       "award_number": "2137255",
-      "award_title": "IUCRC BRAIN Center Award"
+      "award_title": "IUCRC BRAIN Center"
     }
   ],
   "resource_type_general": "Dataset",
